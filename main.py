@@ -3,7 +3,7 @@ import pyttsx3
 import pdfplumber
 
 
-file = 'book.pdf'
+file = 'book.pdf' # Your book
 
 book = open(file, 'rb')
 pdfReader = PyPDF3.PdfFileReader(book)

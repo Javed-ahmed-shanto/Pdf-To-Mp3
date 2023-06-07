@@ -3,11 +3,8 @@
 </div>
 
 <div align="justify">
-  This is a Python script that allows users to convert PDF files to MP3 audio files in the language of their choice. It uses PyPDF2 to extract text from the PDF files, Google Translate API to translate the text into the selected language, and Google Text-to-Speech (gTTS) API to synthesize the speech and save the audio file.
+  This is a Python script that allows users to convert PDF files to MP3 audio files in English. It uses PyPDF3, pyttsx3, and pdfplumber to implement this
 
-<br>
-
-   The script has a user-friendly command-line interface that prompts the user to select the PDF file, the language, and gives the option to exit or continue converting files. It also creates separate folders for PDF and MP3 files.
 </div>
 
 <div align="center">
